@@ -1,0 +1,52 @@
+{
+  "name": "kinc",
+  "version": "1.0.0",
+  "description": "Uses one or more keys to locate and increment a value in a Map, Object, or other collection. Supports nesting, loose key matching, and more.",
+  "keywords": [
+    "increment",
+    "decrement",
+    "increase",
+    "decrease",
+    "add",
+    "subtract",
+    "number",
+    "nested",
+    "key",
+    "chain",
+    "value",
+    "collection",
+    "array",
+    "map",
+    "object",
+    "set",
+    "typed array",
+    "WeakMap"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/kinc",
+  "repository": "lamansky/kinc",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "2": "^1.0.2",
+    "kedit": "^1.0.0",
+    "xfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
